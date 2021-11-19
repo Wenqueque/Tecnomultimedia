@@ -5,8 +5,7 @@ Alumna:Elea Sofia Carrillo, legajo (11886/9)
 Cuento: "La Reina de las Nieves", por Hans Christian Andersen
  
 Video explicativo:
-https://youtu.be/dT9azvxv5mc
- 
+https://youtu.be/tWfLFcW3EZs
  */
 
 Juego juego;
