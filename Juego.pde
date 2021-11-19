@@ -54,7 +54,6 @@ class Juego {
       text("Minijuego: derrota a la reina", width/2, height/8+10);
 
       textSize(tamText);
-
       textAlign(CENTER);  
       fill(0, 80);
       text("Esto te enseñará a no meterte conmigo", width/4, height/5);
@@ -112,7 +111,6 @@ class Juego {
   void mouse() {
     if (estado.equals("jugar")) {
       jugador.iluminar(mouseX, mouseY, reina.x, reina.y, reina.tx, reina.ty);
-      //juego = new Juego();
     } else if (estado.equals("menu")) { //Boton jugar   
       if (mouseX>width/2-50 && mouseX<width/2+50 && mouseY >height/2-5-20 && mouseY<height/2-5+20) {
         estado="jugar";
